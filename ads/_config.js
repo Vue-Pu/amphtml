@@ -469,6 +469,17 @@ const adConfig = jsonConfiguration({
     renderStartImplemented: true,
   },
 
+  'clickio': {
+    prefetch: 'https://securepubads.g.doubleclick.net/tag/js/gpt.js',
+    preconnect: [
+      'https://s.clickiocdn.com',
+      'https://up.clickiocdn.com',
+      'https://cns.clickiocdn.com',
+      'https://partner.googleadservices.com',
+      'https://tpc.googlesyndication.com',
+    ],
+  },
+
   'dable': {
     preconnect: [
       'https://static.dable.io',
@@ -661,6 +672,19 @@ const adConfig = jsonConfiguration({
   'imonomy': {
     renderStartImplemented: true,
   },
+
+  'impactify': {
+    prefetch: 'https://ad.impactify.io/static/ad/tag.js',
+    preconnect: [
+      'https://ad.impactify.media',
+      'https://dvr.impactify.media',
+      'https://securepubads.g.doubleclick.net',
+      'https://pubads.g.doubleclick.net',
+      'https://secure.adnxs.com',
+    ],
+    renderStartImplemented: true,
+  },
+
   'improvedigital': {},
 
   'incrementx': {
